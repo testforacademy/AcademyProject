@@ -1,7 +1,4 @@
-﻿using System.Diagnostics;
-using System.Runtime.InteropServices;
-
-namespace Calculator
+﻿namespace Calculator
 {
     public class Calculator
     {
@@ -14,14 +11,14 @@ namespace Calculator
             _secondNumber = secondNumber;
         }
 
-        public string AddTwoNumbers()
+        public double AddTwoNumbers()
         {
-            return (_firstNumber + _secondNumber).ToString();
+            return _firstNumber + _secondNumber;
         }
 
-        public string SubTwoNumbers()
+        public double SubTwoNumbers()
         {
-            return (_firstNumber - _secondNumber).ToString();
+            return _firstNumber - _secondNumber;
         }
     }
 }
