@@ -10,8 +10,10 @@ namespace Calculator
 
             var result = calc.AddTwoNumbers();
 
+            var result1 = calc.SubTwoNumbers();
+
             Console.WriteLine(result);
-            Console.WriteLine(calc.SubTwoNumbers());
+            Console.WriteLine(result1);
         }
     }
 }
