@@ -8,7 +8,9 @@ namespace Calculator
         {
             var calc = new Calculator(5, 5);
 
-            Console.WriteLine(calc.AddTwoNumbers());
+            var result = calc.AddTwoNumbers();
+
+            Console.WriteLine(result);
             Console.WriteLine(calc.SubTwoNumbers());
         }
     }
