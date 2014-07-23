@@ -12,8 +12,13 @@ namespace Calculator
 
             var result1 = calc.SubTwoNumbers();
 
+            ShowResult(result);
+            ShowResult(result1);
+        }
+
+        private static void ShowResult(double result)
+        {
             Console.WriteLine(result);
-            Console.WriteLine(result1);
         }
     }
 }
