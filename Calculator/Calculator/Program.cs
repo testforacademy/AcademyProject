@@ -9,9 +9,9 @@ namespace Calculator
             Console.WriteLine(AddTwoNumber(2, 2));
         }
 
-        public static double AddTwoNumber(double x, double y)
+        public static string AddTwoNumber(double x, double y)
         {
-            return x + y;
+            return (x + y).ToString();
         }
     }
 }
