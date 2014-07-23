@@ -6,12 +6,10 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AddTwoNumber(2, 2));
-        }
+            var calc = new Calculator(5, 5);
 
-        public static double AddTwoNumber(double x, double y)
-        {
-            return x + y;
+            Console.WriteLine(calc.AddTwoNumbers());
+            Console.WriteLine(calc.SubTwoNumbers());
         }
     }
 }
