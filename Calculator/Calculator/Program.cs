@@ -6,12 +6,18 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AddTwoNumber(2, 2));
+            Console.WriteLine(AddTwoNumbers(2, 2));
+            Console.WriteLine(SubTwoNumbers(5, 3));
         }
 
-        public static string AddTwoNumber(double x, double y)
+        public static string AddTwoNumbers(double x, double y)
         {
             return (x + y).ToString();
+        }
+
+        public static string SubTwoNumbers(double x, double y)
+        {
+            return (x - y).ToString();
         }
     }
 }
