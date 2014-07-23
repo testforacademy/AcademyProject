@@ -11,7 +11,7 @@ namespace Calculator
             calc.SetFirst(10);
             calc.SetSecond(2);
 
-            Console.WriteLine(calc.AddTwoNumbers());
+            Console.WriteLine(calc.AddTwoNumbers()); // Сложение двух чисел
             Console.WriteLine(calc.SubTwoNumbers());
         }
     }
