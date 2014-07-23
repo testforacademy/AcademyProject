@@ -6,8 +6,10 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Calculator.AddTwoNumbers(2, 2));
-            Console.WriteLine(Calculator.SubTwoNumbers(5, 3));
+            var calc = new Calculator(5, 5);
+
+            Console.WriteLine(calc.AddTwoNumbers());
+            Console.WriteLine(calc.SubTwoNumbers());
         }
     }
 }
